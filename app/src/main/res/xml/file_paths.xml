@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</PreferenceScreen>-->
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path
+        name="images"
+        path="."/>
+<!--    나중에 path 수정 필요(책 참고)-->
+</paths>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/MyTextStyle"
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="연락처"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/contact_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="17dp"/>
+            <TextView
+                style="@style/MyTextStyle"
+                android:id="@+id/op_time"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="운영시간"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/op_time_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="17dp"/>
+            <TextView
+                style="@style/MyTextStyle"
+                android:id="@+id/day_off"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="휴무일"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/day_off_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="17dp"/>
+            <TextView
+                style="@style/MyTextStyle"
+                android:id="@+id/lm_fee"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="입장요금"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/lm_fee_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="17dp"/>
+            <TextView
+                style="@style/MyTextStyle"
+                android:id="@+id/homepage"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="홈페이지"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/homepage_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

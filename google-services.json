@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "532386484289",
+    "firebase_url": "https://festival-data-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "festival-data",
+    "storage_bucket": "festival-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532386484289:android:5911ba8229c8d9893276c0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532386484289-9gjvjuskk7k2h7rfbf0u2j67tllbkk16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCygo0CZxMy49z9nf5Yw3HhbYJbpoJOACI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532386484289-9gjvjuskk7k2h7rfbf0u2j67tllbkk16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

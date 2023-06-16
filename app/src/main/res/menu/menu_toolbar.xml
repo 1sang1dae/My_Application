@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lmDetail_toolbar">
+    <item
+        android:id="@+id/user_menu"
+        android:enabled="true"
+        android:title="북마크"
+        android:icon="@drawable/dots"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/complete"
+                android:title="Complete"
+                android:icon = "@drawable/complete_uncheck"/>
+            <item android:id="@+id/wishlist"
+                android:title="Wishlist"
+                android:icon = "@drawable/wishlist_uncheck"/>
+        </menu>
+    </item>
+</menu>
